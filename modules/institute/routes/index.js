@@ -11,7 +11,7 @@ institute.get('/institutes', (req, res, next) => {
 });
 
 /**
- * Create route for add institutes in instituteController.
+ * Create route for add  institutes in instituteController.
  */
 institute.post('/add-institute', (req, res, next) => {
     instituteController.addInstiute(req, res, next);
